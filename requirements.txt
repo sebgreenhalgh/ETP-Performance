@@ -1,0 +1,10 @@
+# Starter research environment (Python 3.11+).
+# Source-specific download libraries may be added after data-source approval.
+# Bounds make this a starting point; lead should lock tested versions before final delivery.
+numpy>=1.26,<3
+pandas>=2.2,<3
+matplotlib>=3.8,<4
+statsmodels>=0.14,<1
+jupyterlab>=4.2,<5
+nbconvert>=7.16,<9
+pytest>=8,<10

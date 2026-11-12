@@ -1,0 +1,31 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# System/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated files and downloaded market data: document sources, do not commit
+data/*
+!data/README.md
+outputs/
+figures/
+*.log
+
+# Private files
+*.pem
+*.key
