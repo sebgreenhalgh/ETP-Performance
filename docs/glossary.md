@@ -2,7 +2,7 @@
 
 **ETP (exchange-traded product):** An umbrella category of financial products whose price depends on an underlying financial asset. ETPs are traded on an exchange, like stocks.
 
-**ETF (exchange-traded fund):** A particular type of ETP: a fund that holds a basket of assets (stocks, bonds, commodities, etc.) and whose price follows the value of that basket.
+**ETF (exchange-traded fund):** A type of ETP structured as a fund, traded on an exchange. It may hold a portfolio of assets or use other methods to track a particular market or investment objective; it need not hold a basket of securities.
 
 **GLD:** An ETP that holds physical gold and aims to track the price of gold.
 
@@ -16,9 +16,9 @@
 
 **Roll:** Selling a futures contract that is about to expire and buying the next month's contract, so the fund keeps its exposure without taking physical delivery.
 
-**Contango:** When futures contracts for later delivery cost more than nearer ones. A fund that rolls then sells the cheaper expiring contract and buys the more expensive one, which causes a loss.
+**Contango:** When futures contracts for later delivery are priced above nearer contracts. For a long futures investor who regularly rolls forward, contango can create a return drag relative to spot over time if the higher-priced contract subsequently falls toward the spot price. The price difference does **not** cause an immediate loss when the fund rolls.
 
-**Backwardation:** The opposite: later contracts cost less than nearer ones. Rolling then sells the more expensive expiring contract and buys a cheaper one, which causes a gain.
+**Backwardation:** When futures contracts for later delivery are priced below nearer contracts. For a long futures investor, it can benefit returns relative to spot if the lower-priced new contract subsequently rises toward the spot price. Buying it at a lower price does **not** guarantee an immediate gain at the roll.
 
 **F1/F2:** F1 is the front-month futures contract (the one expiring soonest) and F2 is the second-month contract (the next to expire). Comparing their prices shows whether the market is in contango (F2 higher than F1) or backwardation (F2 lower than F1).
 
@@ -26,7 +26,7 @@
 
 ## Example: why UNG can fall behind spot
 
-Suppose natural gas spot stays flat at 3.00. The market is in contango: F1 costs 3.00 and F2 costs 3.20. UNG rolls by selling F1 and buying F2 at 3.20. A month later that contract is the front month, and its price has moved toward spot, so it is worth about 3.00. UNG has lost 0.20 per contract (about 6%) even though spot did not change. A fund that holds the physical asset, like GLD with gold, does not face this roll cost. This is a simplified example: real futures prices also move with supply, demand and expectations.
+Suppose natural gas spot remains at $3.00 per MMBtu. The market is in contango: the nearer futures contract (F1) is $3.00 and the next contract (F2) is $3.20. A hypothetical long-futures fund sells F1 and buys F2 at $3.20 to maintain exposure. **There is no automatic $0.20 loss on the roll date.** If, during the next month, the newly held contract's price falls from $3.20 to $3.00 while spot remains unchanged, that futures position loses $0.20 per MMBtu (a **6.25% decline in that futures price**). This illustrates how a futures fund such as UNG can lag a flat spot-price reference. It does **not** imply UNG's fund return is exactly −6.25%: actual returns also depend on contract positions, roll timing, collateral income and fees. A physically backed fund such as GLD does not routinely roll commodity futures, although it still has expenses and tracking differences. Real futures prices need not converge on this exact schedule, so neither a loss in contango nor a gain in backwardation is guaranteed.
 
 ## Sources
 
