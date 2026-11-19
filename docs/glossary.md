@@ -23,3 +23,16 @@
 **F1/F2:** F1 is the front-month futures contract (the one expiring soonest) and F2 is the second-month contract (the next to expire). Comparing their prices shows whether the market is in contango (F2 higher than F1) or backwardation (F2 lower than F1).
 
 **Collateral income:** Interest a futures-based fund earns on the cash and Treasury bills it holds as collateral behind its futures positions. It partly offsets the fund's fees and roll costs.
+
+## Example: why UNG can fall behind spot
+
+Suppose natural gas spot stays flat at 3.00. The market is in contango: F1 costs 3.00 and F2 costs 3.20. UNG rolls by selling F1 and buying F2 at 3.20. A month later that contract is the front month, and its price has moved toward spot, so it is worth about 3.00. UNG has lost 0.20 per contract (about 6%) even though spot did not change. A fund that holds the physical asset, like GLD with gold, does not face this roll cost. This is a simplified example: real futures prices also move with supply, demand and expectations.
+
+## Sources
+
+- SPDR Gold Trust (GLD), official fund page: https://www.spdrgoldshares.com/usa/gld/ (physical gold backing and the fund's objective)
+- United States Natural Gas Fund (UNG), USCF: https://www.uscfinvestments.com/ung (what UNG holds and tracks)
+- UNG annual report (Form 10-K, FY2018), SEC: https://www.sec.gov/Archives/edgar/data/1376227/000114420419013632/tv513097_10k.htm (benchmark futures contract and collateral interest)
+- CME Group, "What is Contango and Backwardation": https://www.cmegroup.com/education/courses/introduction-to-base-metals/what-is-contango-and-backwardation.html (contango and backwardation)
+
+The definitions above are paraphrased from these sources. The UNG vs spot example is the author's own simplified illustration, not a result from a source.
